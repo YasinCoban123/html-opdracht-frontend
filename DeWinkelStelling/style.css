@@ -1,0 +1,10 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+#nummerplek{
+  background: linear-gradient(to right, #ffffff, grey);
+  height: 15vh;
+  width: 101%;
+  margin: 0;
+  padding: 0;
+}
