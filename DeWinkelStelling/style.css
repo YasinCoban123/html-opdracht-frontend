@@ -80,7 +80,7 @@
   }
   body {
     background-image: url("img/pic01.png");
-    background-size: cover;
+    background-size:1300px;
     background-repeat: no-repeat;
   }
   .home{
