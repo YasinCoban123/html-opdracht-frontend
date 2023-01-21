@@ -192,3 +192,32 @@
     height: 30vh;
     width: 100%;
   }
+  @media only screen and (max-width: 600px) {
+    body{
+     font-size: 12px;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+  .navbar{
+   flex-direction: column;
+   align-items: center;
+  }
+  .navbar li{
+   margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .imglogo{
+   width: 50%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  img{
+   padding: 20px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  img{
+   margin: 30px;
+  }
+}
