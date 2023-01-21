@@ -29,6 +29,9 @@
      
     
     .header{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
       min-height: 100vh;
       width: 100%;
       background-image: url();
@@ -43,6 +46,7 @@
       justify-content: flex-end;
     }
     .navbar{
+      justify-content: flex-start;
       display: flex;
       list-style: none;
       background: linear-gradient(to left, #4b4545, rgb(0, 0, 0));
@@ -103,6 +107,9 @@
     justify-content: space-between;
   }
   .col{
+    display: flex;
+  flex-direction: column;
+  position: absolute;
     flex-basis: 31%;
     position: absolute;
     background: linear-gradient(to bottom, rgb(191, 189, 189), rgb(112, 110, 110));
@@ -132,17 +139,16 @@
     right: 100%;
     margin-right: 900px;
   }
-  .home2{
-
-  }
   .col2{
+  display: flex;
+  flex-direction: column;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   width: 220px;
   height: 50vh;
   left: 1000px;
-  bottom: 2%;
+  bottom: -1%;
   }
   .col2 h1{
   color: white;
